@@ -18,6 +18,6 @@ class Account():
 account = Account("ballance.txt")
 print(account.balance)
 
-account.deposit(200)
+account.deposit(3000)
 print(account.balance)
 account.commit()
